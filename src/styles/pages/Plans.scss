@@ -1,0 +1,63 @@
+main {
+    margin-top: 4rem;
+    
+    h1 {
+        text-align:center;
+        font-style: italic;
+        color: #00ff15;
+    }
+}
+
+.plans-container{
+    display:flex;
+
+    .individual-container {
+        text-align: center;
+        border: .1rem black solid;
+        width: 100%;
+        padding: .4rem;
+        margin: 2rem;
+        border-radius: .4rem;
+
+        h1 {
+            color:#000;
+        }
+
+        .first-infos {
+            p {
+                font-size: .8rem;
+                font-style: italic;
+            }
+        }
+
+        button {
+            background-color: #2eddcc;
+            width: 40%;
+            padding: .5rem;
+            border:none;
+            border-radius: .1rem;
+            color:#ffffff;
+            font-weight: 900;
+            font-size: .9rem;
+        }
+
+        button:hover {
+            background: #21aa9c;
+            transition: .5s;
+            cursor: pointer;
+        }
+
+        .second-infos {
+            justify-content: center;
+
+            .done{
+                color: #000;
+            }
+
+            .close{
+                text-decoration-line: line-through;
+                color: #b1b1b1;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+header {
+    display: inline-block;
+    width: 100%;
+    z-index: 10;
+    border-bottom: 1px solid #d1d7dc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f8f8;
+    font-weight: 900;
+    color: #000;
+    
+    img {
+        float: left;
+        padding-top: .6rem;
+        border:0;
+    }
+
+    ul{
+        text-align: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 15px;
+        li {
+            display: inline;
+            padding: 2rem;
+        }
+
+        li:hover {
+            cursor: pointer;
+            color: #00dd12;
+            transition: .5s;
+        }
+    }
+}

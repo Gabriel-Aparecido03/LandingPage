@@ -1,0 +1,204 @@
+* {
+    font-family:'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    .content {
+        margin-top: 4rem;
+        margin-left: 5rem;
+        .intro-concepts {
+            margin: 3rem;
+            .informations-box {
+                margin: 4rem;
+                float: left;
+                font-weight: 900;
+                h1 {
+                    font-size: 3rem;
+                }
+                
+                p {
+                    font-weight: 500;
+                    margin-top: 2.4rem;
+                }
+
+                span {
+                    color:#00ff15;
+                }
+
+                button {
+                    background-color: #2eddcc;
+                    margin-top:4rem;
+                    width: 40%;
+                    padding: .5rem;
+                    border:none;
+                    border-radius: .1rem;
+                    color:#ffffff;
+                    font-weight: 900;
+                    font-size: .9rem;
+                }
+
+                button:hover {
+                    background: #21aa9c;
+                    transition: .5s;
+                    cursor: pointer;
+                }
+            }
+
+            .image-box {
+                img{
+                    width: 32%;
+                }
+            }
+        }
+
+        .ad-write {
+            display: flex;
+            justify-content: center;
+            font-size: 1.5rem;
+            padding: 2rem;
+            font-style: italic;
+        }
+
+        .businesses-boxes {
+            justify-content: center;
+            text-align: center;
+            img {
+                width: 10%;
+                padding: 1.5rem;
+            }
+
+            img:hover {
+                cursor: pointer;
+            }
+        }
+
+        .motivation-container {
+            margin: 2rem;
+            text-align: center;
+
+            h1 {
+                color: #00ff15;
+                font-size: 2rem;
+            }
+
+            p {
+                margin: 1.5rem;
+                font-size: 1.1rem;
+            }
+        }
+
+        .promotion-container {
+            margin: 4rem;
+            .ad-course-container-left {
+                margin: 2rem;
+                column-count: 2;
+                text-align: right;
+                .images-field {
+                    img {
+                        width: 50%;
+                    }
+                }
+                .write-field {
+                    text-align: left;
+                    
+                    h1 {
+                        font-size: 2.5rem;
+                        color: #00ff15;
+                    }
+
+                    p {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+
+            .ad-course-container-right {
+                margin: 4rem;
+                column-count: 2;
+                text-align: left;
+                .images-field {
+                    img {
+                        width: 50%;
+                    }
+                }
+                .write-field {
+                    text-align: right;
+                    
+                    h1 {
+                        font-size: 2.5rem;
+                        color: #00ff15;
+                    }
+
+                    p {
+                        font-size: 1.1rem;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .example-container {
+            column-count:2;
+            background-color: black;
+            width:100%;
+            img {
+                text-align:center;
+                display:block;
+                width: 25%;
+                border-radius: .4rem;
+                padding:1.2rem;
+            }
+
+            .write-container {
+                p {
+                    float:right;
+                    padding: 1.2rem;
+                    color: #f8f8f8;
+                    font-size: 1.5rem;
+                    font-style: italic;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        .write-container {
+            text-align: center;
+            color: #00ff15;
+            font-size: 1.5rem;
+        }
+
+        .final-ad-container {
+            justify-content: center;
+            text-align: center;
+            img {
+                width: 10%;
+                padding: 1.5rem;
+            }
+        }
+
+        .button-container {
+            text-align: center;
+            
+            button {
+                width: 40%;
+                font-size: 1.2rem;
+                padding: .3rem;
+                background-color: #2eddcc;
+                border: none;
+                border-radius: .3rem;
+                color: #ffffff;
+            }
+
+            button:hover {
+                background-color: #21aa9c;
+                transition:.5s;
+                cursor: pointer;
+            }
+        }
+    }
+}
